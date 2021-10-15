@@ -5,29 +5,13 @@ import { Component, OnInit } from '@angular/core';
   template: `
 <div class="container">
   <div class="row">
-    <div class="col">
+    <div class="col d-flex align-items-center justify-content-center">
       <figure class="figure">
       <img src="assets/img/pull-banner.png" class="figure-img img-fluid rounded" alt="...">
         <figcaption class="figure-caption">Something that is in a caption section</figcaption>
       </figure>
     </div>
-    <div class="col">
-      <figure class="figure">
-      <img src="assets/img/pull-banner.png" class="figure-img img-fluid rounded" alt="...">
-        <figcaption class="figure-caption">Something that is in a caption section</figcaption>
-      </figure>
-    </div>
-  </div>
-</div>
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <figure class="figure">
-      <img src="assets/img/pull-banner.png" class="figure-img img-fluid rounded" alt="...">
-        <figcaption class="figure-caption">Something that is in a caption section</figcaption>
-      </figure>
-    </div>
-    <div class="col">
+    <div class="col d-flex align-items-center justify-content-center">
       <figure class="figure">
       <img src="assets/img/pull-banner.png" class="figure-img img-fluid rounded" alt="...">
         <figcaption class="figure-caption">Something that is in a caption section</figcaption>
@@ -37,13 +21,29 @@ import { Component, OnInit } from '@angular/core';
 </div>
 <div class="container">
   <div class="row">
-    <div class="col">
+    <div class="col d-flex align-items-center justify-content-center">
       <figure class="figure">
       <img src="assets/img/pull-banner.png" class="figure-img img-fluid rounded" alt="...">
         <figcaption class="figure-caption">Something that is in a caption section</figcaption>
       </figure>
     </div>
-    <div class="col">
+    <div class="col d-flex align-items-center justify-content-center">
+      <figure class="figure">
+      <img src="assets/img/pull-banner.png" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption">Something that is in a caption section</figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col d-flex align-items-center justify-content-center">
+      <figure class="figure">
+      <img src="assets/img/pull-banner.png" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption">Something that is in a caption section</figcaption>
+      </figure>
+    </div>
+    <div class="col d-flex align-items-center justify-content-center">
       <figure class="figure">
       <img src="assets/img/pull-banner.png" class="figure-img img-fluid rounded" alt="...">
         <figcaption class="figure-caption">Something that is in a caption section</figcaption>
