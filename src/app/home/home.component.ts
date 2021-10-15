@@ -3,11 +3,61 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-home',
   template: `
-    <p>
-      home works!
-    </p>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <figure class="figure">
+      <img src="assets/img/pull-banner.png" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption">Something that is in a caption section</figcaption>
+      </figure>
+    </div>
+    <div class="col">
+      <figure class="figure">
+      <img src="assets/img/pull-banner.png" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption">Something that is in a caption section</figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <figure class="figure">
+      <img src="assets/img/pull-banner.png" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption">Something that is in a caption section</figcaption>
+      </figure>
+    </div>
+    <div class="col">
+      <figure class="figure">
+      <img src="assets/img/pull-banner.png" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption">Something that is in a caption section</figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <figure class="figure">
+      <img src="assets/img/pull-banner.png" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption">Something that is in a caption section</figcaption>
+      </figure>
+    </div>
+    <div class="col">
+      <figure class="figure">
+      <img src="assets/img/pull-banner.png" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption">Something that is in a caption section</figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
   `,
-  styles: [
+  styles: [`
+        img {
+          height: 216px !important;
+          width: 190px !important;
+        }
+  `
   ]
 })
 export class HomeComponent implements OnInit {
