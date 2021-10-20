@@ -19,8 +19,17 @@ import { Component, OnInit } from '@angular/core';
     </div>
   </div>
 </nav>
+<nav class="navbar sticky-top navbar-light bg-light d-flex align-items-center justify-content-center">
+  <h3 id="motto"> Home of Exclusive Printing and Signage! </h3>
+  <h5> T: 000 000 0000  E:info@fullcustom.co.za</h5>
+</nav>
   `,
-  styles: [
+  styles: [`
+  #motto {
+  color:#3273dc;
+
+  }
+  `
   ]
 })
 export class HeaderComponent implements OnInit {
