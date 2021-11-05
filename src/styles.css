@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+        .col.heading {
+        background: lightblue;
+        padding: 1rem !important;
+        }
+
+
+  .img-thumbnail {
+  max-width: 80%;
+  }
+
+        div.row.top {
+            padding-bottom: 1rem;
+        }
+
+                .row.product.bottom {
+                    margin-bottom: 1em !important;
+                }
+
+        .row.product {
+        padding: 0.6rem !important;
+        }
+
+        .row.product:hover {
+                background-color: lightblue !important;
+              }

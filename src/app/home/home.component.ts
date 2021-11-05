@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   <div class="row row-margin-05">
     <div class="col d-flex align-items-center justify-content-center">
     <div class="col d-flex inside align-items-center justify-content-center" routerLink="/large-format">
-      <figure class="figure">
+      <figure class="figure text-center">
       <h5>Large Format Printing</h5>
       <img src="assets/img/pull-banner.png" class="figure-img img-fluid rounded" alt="...">
         <figcaption class="figure-caption">Pull Up Banners, Viynl Printing & Cut, PVC etc</figcaption>
@@ -17,9 +17,9 @@ import { Component, OnInit } from '@angular/core';
     </div>
     <div class="col d-flex align-items-center justify-content-center">
     <div class="col d-flex inside align-items-center justify-content-center" routerLink="/corporate-branding">
-      <figure class="figure">
+      <figure class="figure text-center">
       <h5>Corporate Branding</h5>
-      <img src="assets/img/pull-banner.png" class="figure-img img-fluid rounded" alt="...">
+      <img src="assets/img/tshirts.jpg" class="figure-img img-fluid rounded" alt="...">
         <figcaption class="figure-caption">T-Shirt Printing, Caps, Mugs, Office Branding etc</figcaption>
       </figure>
       <span>View More</span>
@@ -31,9 +31,9 @@ import { Component, OnInit } from '@angular/core';
   <div class="row row-margin-05">
     <div class="col d-flex align-items-center justify-content-center">
     <div class="col d-flex inside align-items-center justify-content-center" routerLink="/promotional-products">
-      <figure class="figure">
+      <figure class="figure text-center">
       <h5>Promotional Products</h5>
-      <img src="assets/img/pull-banner.png" class="figure-img img-fluid rounded" alt="...">
+      <img src="assets/img/resize flyer.jpg" class="figure-img img-fluid rounded" alt="...">
         <figcaption class="figure-caption">Flyers, Posters, Product Stickers etc</figcaption>
       </figure>
       <span>View More</span>
@@ -41,9 +41,9 @@ import { Component, OnInit } from '@angular/core';
     </div>
     <div class="col d-flex align-items-center justify-content-center">
     <div class="col d-flex inside align-items-center justify-content-center" routerLink="/corporate-stationery">
-      <figure class="figure">
+      <figure class="figure text-center">
       <h5>Corporate Stationery</h5>
-      <img src="assets/img/pull-banner.png" class="figure-img img-fluid rounded" alt="...">
+      <img src="assets/img/NCR-Books-removebg-preview.png" class="figure-img img-fluid rounded" alt="...">
         <figcaption class="figure-caption">Invoice Books, Receipt Books, Business Cards etc</figcaption>
       </figure>
       <span>View More</span>
@@ -55,9 +55,9 @@ import { Component, OnInit } from '@angular/core';
   <div class="row row-margin-05">
     <div class="col d-flex align-items-center justify-content-center">
     <div class="col d-flex inside align-items-center justify-content-center" routerLink="/vehicle-branding">
-      <figure class="figure">
+      <figure class="figure text-center">
       <h5>Vehicle Branding</h5>
-      <img src="assets/img/pull-banner.png" class="figure-img img-fluid rounded" alt="...">
+      <img src="assets/img/Car-magnets-1-removebg-preview-1.jpg" class="figure-img car img-fluid rounded" alt="...">
         <figcaption class="figure-caption">Full Wrap, Magnetic Stickers, Lettering, etc</figcaption>
       </figure>
       <span>View More</span>
@@ -65,9 +65,9 @@ import { Component, OnInit } from '@angular/core';
     </div>
     <div class="col d-flex align-items-center justify-content-center">
     <div class="col d-flex inside align-items-center justify-content-center" routerLink="/toners-refill">
-      <figure class="figure">
+      <figure class="figure text-center">
       <h5>Toners & Refill Inks</h5>
-      <img src="assets/img/pull-banner.png" class="figure-img img-fluid rounded" alt="...">
+      <img src="assets/img/toners-resize.jpg" class="figure-img img-fluid rounded" alt="...">
         <figcaption class="figure-caption">Toner Refill Inks and Toner Catridges..</figcaption>
       </figure>
       <span>View More</span>
@@ -88,9 +88,22 @@ import { Component, OnInit } from '@angular/core';
         padding: 1rem !important;
         }
 
+        .row {
+           margin-right: 60px;
+           margin-left: 60px;
+        }
+
         .row-margin-05 {
+        margin-top: 0.5em;
         margin-bottom: 0.5em;
         }
+
+        img.car {
+            width: 240px !important;
+            height: 112px !important;
+            margin-top: 42px;
+            margin-bottom: 45px;
+              }
 
         .inside {
         background: white;
