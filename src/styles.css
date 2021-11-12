@@ -24,3 +24,7 @@
         .row.product:hover {
                 background-color: lightblue !important;
               }
+
+li {
+    list-style: none;
+}
