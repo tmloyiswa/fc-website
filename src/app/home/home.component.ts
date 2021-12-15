@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-home',
   template: `
+  <div class="main-container">
 <div class="container overflow-hidden">
   <div class="row row-margin-05">
     <div class="col d-flex align-items-center justify-content-center">
@@ -75,7 +76,11 @@ import { Component, OnInit } from '@angular/core';
     </div>
   </div>
 </div>
+<div class="container overflow-hidden">
+<h1>This is my test paragragh</h1>
+</div>
 
+</div>
   `,
   styles: [`
         img {

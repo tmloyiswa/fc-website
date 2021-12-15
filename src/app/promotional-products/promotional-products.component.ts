@@ -61,7 +61,7 @@ import { Component, OnInit } from '@angular/core';
                 <div class="col-8">
                 <p>Our mugs are perfect for loved ones, birthdays, anniversaries , brand promotion and more. Get your mugs printed at <strong>FULL CUSTOM</strong> today.</p>
                 <h5>MUG PRINTING</h5>
-                <li>ANY TYPE OF MUGS</li>
+                <li>ANY TYPE OF PRINTABLE MUGS</li>
                 <li>Magic Mugs</li>
                 <li>Froasted Mugs</li>
                 <li>Neon Mugs</li>

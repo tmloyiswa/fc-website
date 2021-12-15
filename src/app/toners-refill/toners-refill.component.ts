@@ -22,14 +22,30 @@ import { Component, OnInit } from '@angular/core';
            <div class="col-4">
            <img src="assets/img/black_toner.png" class="img-thumbnail" alt="...">
            </div>
-           <div class="col-8">.col-6<br>Subsequent columns continue along the new line.</div>
+           <div class="col-8">
+               <h5>Toner Cartridges in Stock.</h5>
+               <h6>TONER CARTRIDGES IN STOCK</h6>
+               <li>LASERJET</li>
+               <li>KYOCERA MITA</li>
+               <li>TASKALFA</li>
+               <li>SAMSUNG</li>
+               <li>Original toners and refill inks.</li>
+           </div>
          </div>
 
              <div class="row product bottom">
                  <div class="col-4">
                  <img src="assets/img/ink.jpg" class="img-thumbnail" alt="...">
                  </div>
-                 <div class="col-8">.col-6<br>Subsequent columns continue along the new line.</div>
+                 <div class="col-8">
+                             <h5>Laboratory tested Refill Inks.</h5>
+                                <h6>REFILL INKS (250G Bottles)</h6>
+                                <li>HP</li>
+                                <li>SAMSUNG</li>
+                                <li>CANON</li>
+                                <li>Complete set with full color print, assembled with carrier bag.</li>
+
+                 </div>
                </div>
        </div>
   `,

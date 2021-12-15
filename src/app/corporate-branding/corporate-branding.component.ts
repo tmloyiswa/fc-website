@@ -23,21 +23,43 @@ import { Component, OnInit } from '@angular/core';
                 <div class="col-4">
                 <img src="assets/img/shirts.png" class="img-thumbnail" alt="...">
                 </div>
-                <div class="col-8">.col-6<br>Subsequent columns continue along the new line.</div>
+                <div class="col-8">
+                    <h5>Branded Work Uniforms</h5>
+                    <h6>PRINT SIZES</h6>
+                    <li>Pocket Size</li>
+                    <li>A4 Size</li>
+                    <li>A3 Size</li>
+                    <li>“Turn your team into walking billboards, in style.”</li>
+                </div>
               </div>
 
               <div class="row product">
                   <div class="col-4">
                   <img src="assets/img/reflective.png" class="img-thumbnail" alt="...">
                   </div>
-                  <div class="col-8">.col-6<br>Subsequent columns continue along the new line.</div>
+                  <div class="col-8">
+                      <h5>Branded Work Suits</h5>
+                      <h6>PRINT SIZES</h6>
+                      <li>Pocket Size</li>
+                      <li>A4 Size</li>
+                      <li>A3 Size</li>
+                      <li>“Turn your team into walking billboards, in style.”</li>
+                  </div>
                 </div>
 
                   <div class="row product bottom">
                       <div class="col-4">
                       <img src="assets/img/sports.png" class="img-thumbnail" alt="...">
                       </div>
-                      <div class="col-8">.col-6<br>Subsequent columns continue along the new line.</div>
+                      <div class="col-8">
+                       <h5>Branded Sportswear</h5>
+                                            <h6>PRINT SIZES</h6>
+                                            <li>Pocket Size</li>
+                                            <li>A4 Size</li>
+                                            <li>A3 Size</li>
+                                            <li>“Turn your team into walking billboards, in style.”</li>
+
+                      </div>
                     </div>
             </div>
   `,

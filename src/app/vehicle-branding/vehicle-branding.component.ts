@@ -20,14 +20,25 @@ import { Component, OnInit } from '@angular/core';
             <div class="col-4">
             <img src="assets/img/magnetic.jpeg" class="img-thumbnail" alt="...">
             </div>
-            <div class="col-8">.col-6<br>Subsequent columns continue along the new line.</div>
+            <div class="col-8">
+                <h5>CAR MAGNETIC STICKERS</h5>
+                <li>500MM X 300MM SET</li>
+                <li>600MM X 400MM SET</li>
+                <li>Complete set for left and right door, with full color print and installation.</li>
+
+            </div>
           </div>
 
               <div class="row product bottom">
                   <div class="col-4">
                   <img src="assets/img/vinyl.png" class="img-thumbnail" alt="...">
                   </div>
-                  <div class="col-8">.col-6<br>Subsequent columns continue along the new line.</div>
+                  <div class="col-8">
+                      <h5>VINYL CUTOUTS</h5>
+                      <li>Semi Wrap</li>
+                      <li>Lettering, ETC</li>
+                      <li>Multi colors available.</li>
+                  </div>
                 </div>
         </div>
 
