@@ -4,6 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-promotional-products',
   template: `
     <div class="container">
+    <div class="row">
         <div class="row top">
           <div class="col heading align-self-start">
             <h4 class="title">Promotional Products...</h4>
@@ -70,6 +71,7 @@ import { Component, OnInit } from '@angular/core';
 
                 </div>
               </div>
+        </div>
       </div>
 
   `,

@@ -76,17 +76,15 @@ import { Component, OnInit } from '@angular/core';
     </div>
   </div>
 </div>
-<div class="container overflow-hidden">
-<h1>This is my test paragragh</h1>
 </div>
 
-</div>
+
   `,
   styles: [`
-        img {
-          height: 216px !important;
-          width: 190px !important;
-        }
+             img {
+                  height: 216px !important;
+                  width: 190px !important;
+                }
 
         .col {
         background: lightblue;
