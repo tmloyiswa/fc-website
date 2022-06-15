@@ -4,6 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-header',
   template: `
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+<div class="container">
   <a class="navbar-brand" href="#">
       <img src="assets/img/fc-logo.png" width="30" height="30" alt="">
       Full Custom
@@ -23,6 +24,7 @@ import { Component, OnInit } from '@angular/core';
       <a class="nav-item nav-link" routerLink="/contact">Contact Us</a>
       <a class="nav-item nav-link" routerLink="/gallery">Gallery</a>
     </div>
+  </div>
   </div>
 </nav>
 <h2 class="display-6 text-center">Home of Exclusive Printing & Signage!</h2>
