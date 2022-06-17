@@ -29,10 +29,3 @@
 li {
     list-style: none;
 }
-
-.quick.services {
-right: 0;
-    position: absolute;
-    max-width: 18%;
-    top: 40%;
-}
